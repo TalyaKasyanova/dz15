@@ -167,9 +167,7 @@ body {
 }
 
 .sub-title {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 500;
+  font-family: "Raleway500";
   font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
@@ -178,8 +176,7 @@ body {
 }
 
 .team-title {
-  font-family: "Roboto";
-  font-weight: 900;
+  font-family: "Roboto900";
   font-size: 60px;
   line-height: 66px;
   text-transform: uppercase;
@@ -200,8 +197,7 @@ body {
 }
 
 .name-title {
-  font-family: "Roboto";
-  font-weight: 900;
+  font-family: "Roboto900";
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -221,8 +217,7 @@ body {
 }
 
 .description-text {
-  font-family: "Raleway";
-  font-weight: 400;
+  font-family: "Raleway400";
   font-size: 24px;
   line-height: 36px;
   text-align: center;
@@ -261,8 +256,7 @@ body {
 }
 
 .text-box p {
-  font-family: "Raleway";
-  font-weight: 500;
+  font-family: "Raleway500";
   font-size: 14px;
   line-height: 24px;
   text-align: center;
@@ -278,7 +272,7 @@ body {
   border: 1px solid #FFCC00;
   background-color: inherit;
   padding: 5px 10px;
-  font-family: "Open Sans";
+  font-family: "OpenSans";
   font-weight: 700;
   font-size: 14px;
   line-height: 14px;
@@ -293,8 +287,7 @@ body {
   background-color: #898F8F;
 }
 .text-box .description-text {
-  font-family: "Raleway";
-  font-weight: 400;
+  font-family: "Raleway400";
   font-size: 24px;
   line-height: 36px;
   text-align: center;
