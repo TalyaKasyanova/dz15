@@ -145,4 +145,14 @@
       background-color: $main-title;
     }
   }
+
+  .description-text {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    color: $button;
+  }
 }
