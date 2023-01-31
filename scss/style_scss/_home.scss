@@ -1,0 +1,148 @@
+@use "variables";
+
+.sub-title,
+.team-title {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sub-title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: $main-title;
+  margin-bottom: 15px;
+}
+
+.team-title {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: variables.$sub-title;
+}
+
+.dg-img {
+  margin: 40px 0px;
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.text-box {
+  max-width: 440px;
+  width: 100%;
+}
+
+.name-title {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: capitalize;
+  color: variables.$button;
+  margin-bottom: 60px;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: variables.$sub-title;
+    top: 70px;
+    left: 170px;
+  }
+}
+
+.description-text {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: capitalize;
+  color: variables.$button;
+}
+
+.social-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+
+  margin-top: 30px;
+  margin-bottom: 49px;
+
+  .list-link {
+    display: block;
+
+    background: variables.$bg;
+
+    width: 30px;
+    height: 30px;
+    border: 2px solid variables.$link;
+    border-radius: 50%;
+    fill: $link;
+    position: relative;
+
+    &:hover {
+      fill: $sub-title;
+      border: 2px solid $main-title;
+      background-color: $main-title;
+    }
+
+    svg {
+      display: block;
+      top: 25%;
+      left: 25%;
+      position: absolute;
+      content: "";
+    }
+  }
+}
+
+.text-box {
+  p {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: $text;
+  }
+
+  & img {
+    display: block;
+    margin: 25px auto;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid $sub-title;
+    background-color: inherit;
+    padding: 5px 10px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $button;
+    cursor: pointer;
+
+    &:hover {
+      color: $sub-title;
+      border: 1px solid $main-title;
+      background-color: $main-title;
+    }
+  }
+}
