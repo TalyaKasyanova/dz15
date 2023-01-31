@@ -199,30 +199,30 @@ body {
   justify-content: center;
   align-items: center;
 }
-.bg-img .bg-img__corner {
+.bg-img__corner {
   position: absolute;
   width: 100px;
   height: 100px;
 }
-.bg-img .bg-img__corner--topleft {
+.bg-img__corner--topleft {
   top: 0;
   left: 0;
   border-top: 1px solid #FFCC00;
   border-left: 1px solid #FFCC00;
 }
-.bg-img .bg-img__corner--topright {
+.bg-img__corner--topright {
   top: 0;
   right: 0;
   border-top: 1px solid #FFCC00;
   border-right: 1px solid #FFCC00;
 }
-.bg-img .bg-img__corner--bottomleft {
+.bg-img__corner--bottomleft {
   bottom: 0;
   left: 0;
   border-bottom: 1px solid #FFCC00;
   border-left: 1px solid #FFCC00;
 }
-.bg-img .bg-img__corner--bottomright {
+.bg-img__corner--bottomright {
   bottom: 0;
   right: 0;
   border-bottom: #FFCC00 1px solid;
