@@ -41,38 +41,39 @@
   justify-content: center;
   align-items: center;
 
-  &__corner {
+  .bg-img__corner {
     position: absolute;
     width: 100px;
     height: 100px;
 
-    &--topleft {
-      top: 0;
-      left: 0;
-      border-top: 1px solid $sub-title;
-      border-left: 1px solid $sub-title;
-    }
+  }
 
-    &--topright {
-      top: 0;
-      right: 0;
-      border-top: 1px solid $sub-title;
-      border-right: 1px solid $sub-title;
-    }
+  .bg-img__corner--topleft {
+    top: 0;
+    left: 0;
+    border-top: 1px solid $sub-title;
+    border-left: 1px solid $sub-title;
+  }
 
-    &--bottomleft {
-      bottom: 0;
-      left: 0;
-      border-bottom: 1px solid $sub-title;
-      border-left: 1px solid $sub-title;
-    }
+  .bg-img__corner--topright {
+    top: 0;
+    right: 0;
+    border-top: 1px solid $sub-title;
+    border-right: 1px solid $sub-title;
+  }
 
-    &--bottomright {
-      bottom: 0;
-      right: 0;
-      border-bottom: $sub-title 1px solid;
-      border-right: $sub-title 1px solid;
-    }
+  .bg-img__corner--bottomleft {
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid $sub-title;
+    border-left: 1px solid $sub-title;
+  }
+
+  .bg-img__corner--bottomright {
+    bottom: 0;
+    right: 0;
+    border-bottom: $sub-title 1px solid;
+    border-right: $sub-title 1px solid;
   }
 }
 
