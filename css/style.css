@@ -279,6 +279,7 @@ body {
   border-radius: 50%;
   fill: #CCCCCC;
   position: relative;
+  transition: all 0.5s cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 .social-list .list-link:hover {
   fill: #FFCC00;
@@ -318,6 +319,7 @@ body {
   text-transform: uppercase;
   color: #667766;
   cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 .text-box button:hover {
   color: #FFCC00;
