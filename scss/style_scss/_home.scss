@@ -45,7 +45,6 @@
     position: absolute;
     width: 100px;
     height: 100px;
-
   }
 
   .bg-img__corner--topleft {
@@ -76,7 +75,6 @@
     border-right: $sub-title 1px solid;
   }
 }
-
 
 .text-box {
   max-width: 420px;
@@ -123,9 +121,7 @@
 
   .list-link {
     display: block;
-
     background: variables.$bg;
-
     width: 30px;
     height: 30px;
     border: 2px solid variables.$link;
@@ -140,9 +136,9 @@
     }
 
     svg {
-      display: block;
-      top: 25%;
-      left: 25%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       position: absolute;
       content: "";
     }
